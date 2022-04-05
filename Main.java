@@ -4,9 +4,10 @@ class Main {
     double z=0;
     double tab[]= new double[size];
     for(int i=0;i<size;i++){
-      tab[i]=Math.random()*100+1;
-      z=z+tab[i];}
+      tab[i]=Math.random()*10;
+      z=z+tab[i];
+      System.out.println(z);}
     double y = z/size;
-    System.out.println(y);
+    System.out.println("srednia: "+y);
   }
 }
